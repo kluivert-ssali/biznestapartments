@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title># BIZNEST APARTMENT - Kayunga</title>
+    <link rel="icon" href="assets/images/logo/favicon.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body class="bg-neutral-400 @@bodyClass">
+    <div class="overlay"></div>
+    <div class="side-overlay"></div>
+    <div id="toast-container"></div>
+    <div class="progress-wrap cursor-big">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102"><path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/></svg>
+    </div>
+    <div class="mobile-menu d-lg-none d-block scroll-sm position-fixed bg-white tw-w-300-px tw-h-screen overflow-y-auto tw-p-6 tw-z-999 tw--translate-x-full tw-pb-68 ">
+        <button type="button" class="close-button position-absolute tw-end-0 top-0 tw-me-2 tw-mt-2 tw-w-605 tw-h-605 rounded-circle d-flex justify-content-center align-items-center text-neutral-900 bg-neutral-200 hover-bg-neutral-900 hover-text-white">
+        <i class="ph ph-x"></i>
+    </button>
+        <div class="mobile-menu__inner">
+            <a href="index.html" class="mobile-menu__logo">
+            <img src="assets/images/logo/logo 2-light-transparent.png" alt="Biznest Apartments logo">
+        </a>
+            <div class="mobile-menu__menu">
+                <ul class="nav-menu d-lg-flex align-items-center nav-menu--mobile d-block tw-mt-8">
+                    <li class="nav-menu__item">
+                        <a href="index.html" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Home</a>
+                    </li>
+                    <li class="nav-menu__item">
+                        <a href="about.html" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">About Us</a>
+                    </li>
+                    <li class="nav-menu__item has-submenu position-relative">
+                        <a href="javascript:void(0)" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Our Rooms</a>
+                        <ul class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99">
+                            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                <a href="rooms.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">
+                                Single Rooms
+                            </a>
+                            </li>
+                            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                <a href="rooms.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">
+                                Double Rooms
+                            </a>
+                            </li>
+                            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                <a href="rooms.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">
+                                Executive Suite
+                            </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-menu__item">
+                        <a href="gallery.html" class="nav-menu__link text-white font-heading tw-py-11 fw-normal w-100">Gallery</a>
+                    </li>
+                    <li class="nav-menu__item">
+                        <a href="contact.html" class="nav-menu__link text-white font-heading tw-py-11 fw-normal w-100">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <header class="header tw-transition-all tw-z-99 header-transparent">
+        <div class="container">
+            <nav class="d-flex align-items-center justify-content-between position-relative">
+                <div class="logo">
+                    <a href="index.html" class="link">
+                    <img src="assets/images/logo/logo 2-light-transparent.png" alt="Biznest Apartments logo" class="max-w-200-px">
+                </a>
+                </div>
+                <div class="header-menu d-lg-block d-none">
+                    <ul class="nav-menu d-lg-flex align-items-center tw-gap-8">
+                        <li class="nav-menu__item">
+                            <a href="index.html" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-8 fw-normal w-100">Home</a>
+                        </li>
+                        <li class="nav-menu__item">
+                            <a href="about.html" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-8 fw-normal w-100">About Us</a>
+                        </li>
+                        <li class="nav-menu__item has-submenu position-relative">
+                            <a href="javascript:void(0)" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-8 fw-normal w-100">Accommodation</a>
+                            <ul class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99">
+                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                    <a href="rooms.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">
+                                    Single Rooms
+                                </a>
+                                </li>
+                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                    <a href="rooms.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">
+                                    Double Rooms
+                                </a>
+                                </li>
+                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                    <a href="rooms.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">
+                                    Executive Suite
+                                </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-menu__item">
+                            <a href="gallery.html" class="nav-menu__link text-white font-heading tw-py-8 fw-normal w-100">Gallery</a>
+                        </li>
+                        <li class="nav-menu__item">
+                            <a href="contact.html" class="nav-menu__link text-white font-heading tw-py-8 fw-normal w-100">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-right d-flex tw-gap-28">
+                    <div class="header-button">
+                        <a class="tw-btn-hover-white bg-main-600 tw-py-3 tw-px-7 text-uppercase text-heading font-heading d-inline-flex align-items-center tw-gap-2 tw-rounded-lg" href="contact.html">Book Your Stay <span class="d-inline-block lh-1 tw-text-lg"><i class="ph ph-arrow-up-right"></i></span></a>
+                    </div>
+                    <button type="button" class="toggle-mobileMenu leading-none d-lg-none text-white tw-text-9">
+                    <i class="ph ph-list"></i>
+                </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div id="scrollSmoother-container">
+        <section class="banner-area background-img position-relative z-1" data-background-image="assets/images/gallery/biznest-exterior-courtyard.jpeg">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-xl-8 col-lg-8">
+                        <div class="position-relative z-2">
+                            <h6 class="banner-subtitle tw-text-xl text-uppercase text-white tw-mb-9"># BIZNEST APARTMENT</h6>
+                            <h1 class="banner-title tw-text-29 text-white fw-normal tw-mb-10 tw-char-animation">Luxury and Nature Retreat</h1>
+                            <div class="d-flex align-items-center flex-wrap row-gap-3 tw-gap-13">
+                                <div>
+                                    <a class="tw-btn-hover-white bg-main-600 tw-py-5 tw-px-12 text-heading font-heading d-inline-flex align-items-center tw-gap-3 tw-rounded-lg" href="contact.html">
+                                    Booking Your Stay
+                                    <span class="d-inline-block lh-1 tw-text-lg"><i class="ph ph-arrow-up-right"></i></span>
+                                </a>
+                                </div>
+                                <div class=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3">
+                        <div class="banner-play-button d-flex justify-content-end">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="checkout-area position-relative z-3 tw_fade_anim" data-delay=".3">
+            <div class="container">
+                <div class="checkout-bg bg-white tw-pt-11 tw-px-14 tw-pb-11 tw-rounded-md">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="checkout-main-wrapper">
+                                <div class="checkout-wrapper d-flex flex-column">
+                                    <label class="tw-text-sm fw-normal font-body d-flex align-content-center tw-gap-4 tw-mb-2"><span><img
+                                        src="assets/images/icons/checkout-icon1.svg" alt="icon"></span> select date</label>
+                                    <div class="nice-select"><span class="current">Check In</span>
+                                        <ul class="list">
+                                            <li class="option">Check In</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="checkout-wrapper d-flex flex-column">
+                                    <label class="tw-text-sm fw-normal font-body d-flex align-content-center tw-gap-4 tw-mb-2"><span><img
+                                        src="assets/images/icons/checkout-icon1.svg" alt="icon"></span> select date</label>
+                                    <div class="nice-select"><span class="current">Check Out</span>
+                                        <ul class="list">
+                                            <li class="option">Check Out</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="checkout-wrapper d-flex flex-column">
+                                    <label class="tw-text-sm fw-normal font-body d-flex align-content-center tw-gap-4 tw-mb-2"><span><img
+                                        src="assets/images/icons/checkout-icon3.svg" alt="icon"></span> Select room</label>
+                                    <div class="nice-select"><span class="current">Rooms</span>
+                                        <ul class="list">
+                                            <li class="option">Rooms</li>
+                                            <li class="option">01</li>
+                                            <li class="option">02</li>
+                                            <li class="option">03</li>
+                                            <li class="option">04</li>
+                                            <li class="option">05</li>
+                                            <li class="option">06</li>
+                                            <li class="option">07</li>
+                                            <li class="option">08</li>
+                                            <li class="option">09</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="checkout-wrapper d-flex flex-column">
+                                    <label class="tw-text-sm fw-normal font-body d-flex align-content-center tw-gap-4 tw-mb-2"><span><img
+                                        src="assets/images/icons/checkout-icon4.svg" alt="icon"></span> 1 room, 1 adult, 0 child</label>
+                                    <div class="nice-select"><span class="current">guests</span>
+                                        <ul class="list">
+                                            <li class="option">guests</li>
+                                            <li class="option">1</li>
+                                            <li class="option">2</li>
+                                            <li class="option">3</li>
+                                            <li class="option">4</li>
+                                            <li class="option">5</li>
+                                            <li class="option">6</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="checkout-wrapper">
+                                    <div class="checkout-button common-hover-yellow">
+                                        <button class="tw-btn-hover-black bg-main-600 tw-py-5 tw-px-7 text-uppercase text-heading font-heading d-inline-flex align-items-center tw-gap-2 tw-rounded-lg">
+                                        EXPLORE MORE <span class="d-inline-block lh-1 tw-text-lg"><i class="ph ph-arrow-up-right"></i></span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="advance-area py-120 position-relative z-1">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-11">
+                        <div class="section-wrapper text-center tw-mb-14 tw_fade_anim">
+                            <h6 class="section-subtitle tw-text-xl fw-medium text-uppercase tw-mb-4 text-main-600">Crafting Memorable Experiences</h6>
+                            <h2 class="section-title fw-normal tw-mb-7 tw-char-animation">What we have</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="advance-wrap tw_fade_anim">
+                            <div class="advance-item">
+                                <div class="advance-thumb ratio ratio-1x1">
+                                    <img src="assets/images/amenities/2.jpeg" alt="Free Wi-Fi" class="object-fit-cover">
+                                </div>
+                                <div class="advance-content d-flex align-items-center justify-content-between flex-wrap tw-px-4 tw-py-4">
+                                    <h6 class="tw-text-2xl fw-normal mb-0"><a href="service-details.html">Free Wi-Fi</a></h6>
+                                    <a class="advance-btn tw-w-10 tw-h-10 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle text-heading hover-bg-main-600 hover-border-main-600 hover-text-heading" href="service-details.html"><span><i class="ph ph-arrow-right"></i></span></a>
+                                </div>
+                            </div>
+
+                            <!-- item 2 -->
+                            <div class="advance-item">
+                                <div class="advance-thumb ratio ratio-1x1">
+                                    <img src="assets/images/rooms/1.jpeg" alt="Luxurious Rooms" class="object-fit-cover">
+                                </div>
+                                <div class="advance-content d-flex align-items-center justify-content-between flex-wrap tw-px-4 tw-py-4">
+                                    <h6 class="tw-text-2xl fw-normal mb-0"><a href="service-details.html">Luxurious Rooms</a></h6>
+                                    <a class="advance-btn tw-w-10 tw-h-10 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle text-heading hover-bg-main-600 hover-border-main-600 hover-text-heading" href="service-details.html"><span><i class="ph ph-arrow-right"></i></span></a>
+                                </div>
+                            </div>
+
+                            <!-- item 3 -->
+                            <div class="advance-item">
+                                <div class="advance-thumb ratio ratio-1x1">
+                                    <img src="assets/images/offers/1.jpeg" alt="Fast food take away" class="object-fit-cover">
+                                </div>
+                                <div class="advance-content d-flex align-items-center justify-content-between flex-wrap tw-px-4 tw-py-4">
+                                    <h6 class="tw-text-2xl fw-normal mb-0"><a href="service-details.html">Fast food Take away</a></h6>
+                                    <a class="advance-btn tw-w-10 tw-h-10 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle text-heading hover-bg-main-600 hover-border-main-600 hover-text-heading" href="service-details.html"><span><i class="ph ph-arrow-right"></i></span></a>
+                                </div>
+                            </div>
+
+                            <!-- item 4 -->
+                            <div class="advance-item">
+                                <div class="advance-thumb ratio ratio-1x1">
+                                    <img src="assets/images/gallery/biznest-courtyard.jpeg" alt="Discount Packages" class="object-fit-cover">
+                                </div>
+                                <div class="advance-content d-flex align-items-center justify-content-between flex-wrap tw-px-4 tw-py-4">
+                                    <h6 class="tw-text-2xl fw-normal mb-0"><a href="service-details.html">Discount Packages</a></h6>
+                                    <a class="advance-btn tw-w-10 tw-h-10 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle text-heading hover-bg-main-600 hover-border-main-600 hover-text-heading" href="service-details.html"><span><i class="ph ph-arrow-right"></i></span></a>
+                                </div>
+                            </div>
+
+                            <!-- item 5 -->
+                            <div class="advance-item">
+                                <div class="advance-thumb ratio ratio-1x1">
+                                    <img src="assets/images/offers/2.jpeg" alt="Comfortable living" class="object-fit-cover">
+                                </div>
+                                <div class="advance-content d-flex align-items-center justify-content-between flex-wrap tw-px-4 tw-py-4">
+                                    <h6 class="tw-text-2xl fw-normal mb-0"><a href="service-details.html">Comfortable Living</a></h6>
+                                    <a class="advance-btn tw-w-10 tw-h-10 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle text-heading hover-bg-main-600 hover-border-main-600 hover-text-heading" href="service-details.html"><span><i class="ph ph-arrow-right"></i></span></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="bg-white package-area py-120">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-7">
+                        <div class="section-wrapper text-center tw-mb-14 tw_fade_anim">
+                            <h6 class="section-subtitle tw-text-xl fw-medium text-uppercase tw-mb-4 text-main-600">Where Luxury Meets Warmth</h6>
+                            <h2 class="section-title fw-normal tw-mb-7 tw-char-animation">Discover Our Exclusive Accommodation</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-xl-12">
+                        <div class="package-wrapper ">
+                            <div class="row g-3">
+                                <div class="col-lg-6">
+                                    <div>
+                                        <div class="row g-3">
+                                            <div class="col-lg-6">
+                                                <div class="package-thumb h-100 tw-rounded-xl overflow-hidden position-relative z-1">
+                                                    <a href="rooms.html" class="h-100">
+                                                    <img class="tw-rounded-xl w-100 h-100 object-fit-cover" src="assets/images/rooms/1.jpeg" alt="thumb">
+                                                </a>
+                                                    <div class="package-price bg-main-600 tw-p-6 position-absolute start-0 top-0">
+                                                        <span class="tw-text-8 font-heading fw-normal text-heading">80k</span>
+                                                        <p class="font-heading tw-text-5 fw-normal text-capitalize text-heading">per night</p>
+                                                    </div>
+                                                    <div class="package-content position-absolute start-0 bottom-0 tw-mx-10 tw-mb-14">
+                                                        <h4 class="package-title tw-text-8 fw-normal text-white tw-mb-8"><a href="rooms.html">Single Room</a></h4>
+                                                        <div class="package-list">
+                                                            <ul class="d-flex">
+                                                                <li class="font-heading text-white fw-medium tw-text-xl text-capitalize">4 guest</li>
+                                                                <li class="font-heading text-white fw-medium tw-text-xl text-capitalize">
+                                                                    <span><img src="assets/images/icons/package-list-icon1.svg" alt="icon"></span> 2 beds
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="package-thumb h-100 tw-rounded-xl overflow-hidden position-relative z-1">
+                                                    <a href="rooms.html">
+                                                    <img class="tw-rounded-xl w-100 h-100 object-fit-cover" src="assets/images/rooms/3.jpeg" alt="Apartment room">
+                                                </a>
+                                                    <div class="package-price bg-main-600 tw-p-6 position-absolute start-0 top-0">
+                                                        <span class="tw-text-8 font-heading fw-normal text-heading">100k</span>
+                                                        <p class="font-heading tw-text-5 fw-normal text-capitalize text-heading">per night</p>
+                                                    </div>
+                                                    <div class="package-content position-absolute start-0 bottom-0 tw-mx-10 tw-mb-14">
+                                                        <h4 class="package-title tw-text-8 fw-normal text-white tw-mb-8"><a href="rooms.html">Double Room</a></h4>
+                                                        <div class="package-list">
+                                                            <ul class="d-flex">
+                                                                <li class="font-heading text-white fw-medium tw-text-xl text-capitalize">4 guest</li>
+                                                                <li class="font-heading text-white fw-medium tw-text-xl text-capitalize"><span><img
+                                                                    src="assets/images/icons/package-list-icon1.svg" alt="icon"></span> 2 beds
+                                                                </li>
+
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="package-thumb h-100 tw-rounded-xl overflow-hidden position-relative z-1">
+                                                    <a href="rooms.html" class="d-block w-100">
+                                                    <img class="tw-rounded-xl w-100 h-100 object-fit-cover" src="assets/images/rooms/3.jpeg" alt="thumb">
+                                                </a>
+                                                    <div class="package-price bg-main-600 tw-p-6 position-absolute start-0 top-0">
+                                                        <span class="tw-text-8 font-heading fw-normal text-heading">150k</span>
+                                                        <p class="font-heading tw-text-5 fw-normal text-capitalize text-heading">per night</p>
+                                                    </div>
+                                                    <div class="package-content position-absolute start-0 bottom-0 tw-mx-10 tw-mb-14">
+                                                        <h4 class="package-title tw-text-8 fw-normal text-white tw-mb-8"><a href="rooms.html">Twin Bed Room</a></h4>
+                                                        <div class="package-list">
+                                                            <ul class="d-flex">
+                                                                <li class="font-heading text-white fw-medium tw-text-xl text-capitalize">4 guest</li>
+                                                                <li class="font-heading text-white fw-medium tw-text-xl text-capitalize"><span><img
+                                                                    src="assets/images/icons/package-list-icon1.svg" alt="icon"></span> 2 beds
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="package-thumb h-100 tw-rounded-xl overflow-hidden position-relative z-1 tw_fade_anim" data-delay=".3">
+                                        <a href="rooms.html">
+                                        <img class="tw-rounded-xl w-100 h-100 object-fit-cover" src="assets/images/rooms/4.jpeg" alt="thumb">
+                                    </a>
+                                        <div class="package-price bg-main-600 tw-p-6 position-absolute start-0 top-0">
+                                            <span class="tw-text-8 font-heading fw-normal text-heading">200k</span>
+                                            <p class="font-heading tw-text-5 fw-normal text-capitalize text-heading">per night</p>
+                                        </div>
+                                        <div class="package-content position-absolute start-0 bottom-0 tw-mx-10 tw-mb-14">
+                                            <h4 class="package-title tw-text-8 fw-normal text-white tw-mb-8"><a href="rooms.html">Executive Suite</a></h4>
+                                            <div class="package-list">
+                                                <ul class="d-flex">
+                                                    <li class="font-heading text-white fw-medium tw-text-xl text-capitalize">4 guest</li>
+                                                    <li class="font-heading text-white fw-medium tw-text-xl text-capitalize">
+                                                        <span><img src="assets/images/icons/package-list-icon1.svg" alt="icon"></span> 2 beds
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="text-center pt-3">
+                            <a class="tw-btn-hover-black bg-main-600 tw-py-5 tw-px-12 text-uppercase text-heading font-heading d-inline-flex align-items-center tw-gap-2 tw-rounded-lg" href="rooms.html">Explore More <span class="d-inline-block lh-1 tw-text-lg"><i class="ph ph-arrow-up-right"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="offer-area py-120">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-11">
+                        <div class="section-wrapper tw-mb-14 tw_fade_anim">
+                            <h6 class="section-subtitle tw-text-xl fw-medium text-uppercase tw-mb-4 text-main-600">Committed to Excellence</h6>
+                            <h2 class="section-title fw-normal tw-mb-7 tw-char-animation">Get Our Special Offer</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="offer-wrapper overflow-hidden tw-mb-7 tw_fade_anim" data-delay=".3">
+                            <div class="position-relative z-1">
+                                <a href="rooms.html"><img src="assets/images/offers/1.jpeg" alt="thumb"></a>
+                                <div class="offer-title">
+                                    <h4 class="offer-title-inner tw-text-8 fw-normal">Family Escape Package</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="offer-wrapper active overflow-hidden tw-mb-7 tw_fade_anim" data-delay=".5">
+                            <div class="position-relative z-1">
+                                <a href="rooms.html"><img src="assets/images/offers/2.jpeg" alt="thumb"></a>
+                                <div class="offer-title bg-danger">
+                                    <h4 class="offer-title-inner tw-text-8 text-white fw-normal">Romantic Couple Retreat</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="offer-wrapper overflow-hidden tw-mb-7 tw_fade_anim" data-delay=".7">
+                            <div class="position-relative z-1">
+                                <a href="rooms.html"><img src="assets/images/gallery/biznest-courtyard.jpeg" alt="thumb"></a>
+                                <div class="offer-title">
+                                    <h4 class="offer-title-inner tw-text-8 fw-normal">Honeymoon Special</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pb-120">
+            <div class="container">
+                <div class="border-bottom border-neutral-200 tw-mb-11">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-xl-8 col-lg-8">
+                            <div class="section-wrapper tw-mb-14 tw_fade_anim" data-delay=".3">
+                                <h6 class="section-subtitle tw-text-xl fw-medium text-uppercase tw-mb-4 text-main-600">Driven by Service, Inspired by Excellence</h6>
+                                <h2 class="section-title fw-normal tw-mb-7 tw-char-animation">We Don’t Just Manage Rooms – We help our guests have a good time.</h2>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-5 col-lg-8">
+                        <div class="about-thumb position-relative z-1 tw_fade_anim" data-delay=".3">
+                            <div>
+                                <img src="assets/images/about-us.jpeg" alt="thumb">
+                            </div>
+                            <div class="about-thumb-2 position-absolute ">
+                                <img src="assets/images/about-2.jpeg" alt="thumb">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-7">
+                        <div class="about-wrapper tw-ps-14 tw_fade_anim" data-delay=".5">
+                            <div class="section-wrapper tw-mb-14">
+                                <h6 class="section-subtitle tw-text-xl fw-medium text-uppercase tw-mb-4 text-main-600">Sleep in Style and Serenity</h6>
+                                <h2 class="section-title fw-normal tw-mb-7 tw-char-animation">Reasons To Stay With Us</h2>
+                                <p class="tw-text-lg">Experience comfort, calm, and memorable stays in a beautifully designed retreat. Enjoy inviting rooms, refreshing outdoor spaces, and a relaxing atmosphere made for getaways.</p>
+                            </div>
+                            <div>
+                                <div class="row">
+                                    <div class="col-xl-5 col-lg-6 col-md-6">
+                                        <div class="about-list">
+                                            <ul class="d-flex flex-column">
+                                                <li class="bg-white text-heading fw-semibold d-inline-flex align-items-center tw-gap-4 tw-py-3 tw-ps-5 tw-pe-4 tw-mb-5 tw-rounded-3xl">
+                                                    <span class="tw-text-2xl text-main-600 lh-1 d-inline-block"><i class="ph-bold ph-seal-check"></i></span> Excellence customer care
+                                                </li>
+                                                <li class="bg-white text-heading fw-semibold d-inline-flex align-items-center tw-gap-4 tw-py-3 tw-ps-5 tw-pe-4 tw-mb-5 tw-rounded-3xl">
+                                                    <span class="tw-text-2xl text-main-600 lh-1 d-inline-block"><i class="ph-bold ph-seal-check"></i></span> Timely Service
+                                                </li>
+                                                <li class="bg-white text-heading fw-semibold d-inline-flex align-items-center tw-gap-4 tw-py-3 tw-ps-5 tw-pe-4 tw-mb-5 tw-rounded-3xl">
+                                                    <span class="tw-text-2xl text-main-600 lh-1 d-inline-block"><i class="ph-bold ph-seal-check"></i></span> Drive By Passion
+                                                </li>
+                                                <li class="bg-white text-heading fw-semibold d-inline-flex align-items-center tw-gap-4 tw-py-3 tw-ps-5 tw-pe-4 tw-mb-5 tw-rounded-3xl">
+                                                    <span class="tw-text-2xl text-main-600 lh-1 d-inline-block"><i class="ph-bold ph-seal-check"></i></span> Natural Atmosphere
+                                                </li>
+                                                <li class="bg-white text-heading fw-semibold d-inline-flex align-items-center tw-gap-4 tw-py-3 tw-ps-5 tw-pe-4 tw-mb-5 tw-rounded-3xl">
+                                                    <span class="tw-text-2xl text-main-600 lh-1 d-inline-block"><i class="ph-bold ph-seal-check"></i></span> Quiet Location
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-5 col-lg-6 col-md-6">
+                                        <div class="about-list">
+                                            <ul class="d-flex flex-column">
+                                                <li class="bg-white text-heading fw-semibold d-inline-flex align-items-center tw-gap-4 tw-py-3 tw-ps-5 tw-pe-4 tw-mb-5 tw-rounded-3xl">
+                                                    <span class="tw-text-2xl text-main-600 lh-1 d-inline-block"><i class="ph-bold ph-seal-check"></i></span> Elegant Accommodations
+                                                </li>
+                                                <li class="bg-white text-heading fw-semibold d-inline-flex align-items-center tw-gap-4 tw-py-3 tw-ps-5 tw-pe-4 tw-mb-5 tw-rounded-3xl">
+                                                    <span class="tw-text-2xl text-main-600 lh-1 d-inline-block"><i class="ph-bold ph-seal-check"></i></span> Comfortable Living
+                                                </li>
+                                                <li class="bg-white text-heading fw-semibold d-inline-flex align-items-center tw-gap-4 tw-py-3 tw-ps-5 tw-pe-4 tw-mb-5 tw-rounded-3xl">
+                                                    <span class="tw-text-2xl text-main-600 lh-1 d-inline-block"><i class="ph-bold ph-seal-check"></i></span> Secure Parking
+                                                </li>
+                                                <li class="bg-white text-heading fw-semibold d-inline-flex align-items-center tw-gap-4 tw-py-3 tw-ps-5 tw-pe-4 tw-mb-5 tw-rounded-3xl">
+                                                    <span class="tw-text-2xl text-main-600 lh-1 d-inline-block"><i class="ph-bold ph-seal-check"></i></span> Safety & Cleanliness
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-area py-120 mb-5 position-relative z-1 tw-mx-11 tw-rounded-3xl overflow-hidden" style="background-image:url('assets/images/gallery/biznest-room.jpeg')">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6">
+                        <div class="text-center tw_fade_anim">
+                            <h2 class="cta-title tw-text-29 fw-normal text-white tw-mb-6 tw-char-animation">Relax and <span class="d-inline text-main-600">Recharge</span> in a calm, welcoming stay</h2>
+                            <p class="tw-text-lg fw-medium text-white tw-mb-10">Enjoy a peaceful atmosphere, thoughtful service, and the comfort of a home away from home.</p>
+                            <div class="cta-form d-flex tw-gap-2 justify-content-center flex-wrap row-gap-3">
+                                <a href="contact.html" class="tw-btn-hover-white bg-main-600 tw-py-4 tw-px-8 text-uppercase text-heading font-heading d-inline-flex align-items-center tw-gap-2 tw-rounded-lg">
+                                Book Your Stay <span class="d-inline-block lh-1 tw-text-lg"><i class="ph ph-arrow-up-right"></i></span>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer background-img position-relative z-1 overflow-hidden " data-background-image="assets/images/thumbs/footer-bg.jpg">
+            <div class="footer-center-space position-relative z-1">
+                <div class="container container-two">
+                    <div class="footer-center-border tw-pt-4">
+                        <div class="row gy-5">
+                            <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 col-xs-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1200">
+                                <div class="footer-col-1 tw_fade_anim" data-delay=".3">
+                                    <div class="mb-4 aos-init tw_fade_anim" data-delay=".3">
+                                        <a href="index.html" class="footer-logo">
+                                        <img src="assets/images/logo/logo 2-light-transparent.png" alt="Biznest Apartments logo">
+                                    </a>
+                                    </div>
+                                    <div class="font-heading fw-normal text-white">
+                                        <div class="mb-3">
+                                            <div>Email Us</div>
+                                            <div><a href="mailto:biznestapartments@gmail.com" class="text-white">biznestapartments@gmail.com</a></div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <div>Call Us</div>
+                                            <div><a href="tel:+256706528648" class="text-white">+256 706 528 648</a></div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <div>Location</div>
+                                            <div>Kayunga, Uganda</div>
+                                        </div>
+                                    </div>
+                                    <ul class="footer-bottom-social d-flex align-items-center tw-gap-6 aos-init tw_fade_anim" data-delay=".5">
+                                        <li>
+                                            <a href="https://www.facebook.com" class="text--white tw-text-lg hover-text-main-600"><i class="ph-bold ph-facebook-logo"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.twitter.com" class="text--white tw-text-lg hover-text-main-600"><i class="ph-bold ph-twitter-logo"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com" class="text--white tw-text-lg hover-text-main-600"><i class="ph-bold ph-instagram-logo"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.pinterest.com" class="text--white tw-text-lg hover-text-main-600"><i class="ph-bold ph-youtube-logo"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-lg-6 col-md-4 col-sm-6 col-xs-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="400">
+                                <div class="footer-col-2 tw_fade_anim" data-delay=".5">
+                                    <h4 class="cursor-big tw-text-505 fw-normal text--white tw-mb-8">Quick Links</h4>
+                                    <ul class="d-flex flex-column tw-gap-4">
+                                        <li>
+                                            <a href="index.html" class="text--white hover-text-main-600 hover-underline">Home</a>
+                                        </li>
+                                        <li>
+                                            <a href="about.html" class="text--white hover-text-main-600 hover-underline">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="service.html" class="text--white hover-text-main-600 hover-underline">Our Services</a>
+                                        </li>
+                                        <li>
+                                            <a href="gallery.html" class="text--white hover-text-main-600 hover-underline">Gallery</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-lg-6 col-md-8 col-sm-6 col-xs-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
+                                <div class="footer-col-3 tw_fade_anim" data-delay=".7">
+                                    <h4 class="cursor-big tw-text-505 fw-normal text--white tw-mb-8">Rooms</h4>
+                                    <ul class="d-flex flex-column tw-gap-4">
+                                        <li>
+                                            <a href="rooms.html" class="text--white hover-text-main-600 hover-underline">Single Rooms</a>
+                                        </li>
+                                        <li>
+                                            <a href="rooms.html" class="text--white hover-text-main-600 hover-underline">Double Rooms</a>
+                                        </li>
+                                        <li>
+                                            <a href="rooms.html" class="text--white hover-text-main-600 hover-underline">Twin-bed Rooms</a>
+                                        </li>
+                                        <li>
+                                            <a href="rooms.html" class="text--white hover-text-main-600 hover-underline">Executive Suite</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-lg-6 col-md-4 col-sm-6 col-xs-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="400">
+                                <div class="footer-col-4 tw_fade_anim" data-delay=".9">
+                                    <h4 class="cursor-big tw-text-505 fw-normal text--white tw-mb-8">Amenities</h4>
+                                    <ul class="d-flex flex-column tw-gap-4">
+                                        <li>
+                                            <a href="#" class="text--white hover-text-main-600 hover-underline">Luxurious Rooms</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="text--white hover-text-main-600 hover-underline">Free Wi‑Fi</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="text--white hover-text-main-600 hover-underline">Comfortable Living</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <!-- bottom Footer -->
+                <div class="footer-bottom tw-py-3">
+                    <div class="container container-two">
+                        <div class="footer-bottom-wrap d-flex align-items-center justify-content-center tw-gap-4 flex-wrap">
+                            <p class="text--white text-line-1 fw-medium tw-text-lg aos-init tw_fade_anim" data-delay=".7">
+                                &copy; 2026 # BIZNEST APARTMENT | All Rights Reserved
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/phosphor-icon.js"></script>
+    <script src="assets/js/boostrap.bundle.min.js"></script>
+    <script src="assets/js/appear.min.js"></script>
+    <script src="assets/js/swiper-bundle.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <script src="assets/js/nice-select.js"></script>
+    <script src="assets/js/purecounter.js"></script>
+    <script src="assets/js/range-slider.js"></script>
+    <script src="assets/js/jquery-knob.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/SplitText.min.js"></script>
+    <script src="assets/js/ScrollSmoother.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/custom-gsap.js"></script>
+    <script src="assets/js/jquery.marquee.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
